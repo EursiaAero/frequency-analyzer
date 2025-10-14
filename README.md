@@ -66,36 +66,10 @@ Adjustable live parameters:
 
 ---
 
-## 📂 Project Structure
-
-```
-├── qml/
-│   ├── main.qml               # Main UI (2D + 3D view)
-│   ├── Earth.qml              # 3D Earth model with lighting
-│   ├── Waterfall.qml          # QML wrapper for FFT visualizer
-│   └── shaders/
-│       └── water.frag         # Custom glass/water shader
-│
-├── src/
-│   ├── waterfallitem.cpp      # Audio analysis and spectrum rendering
-│   ├── audiosampler.cpp       # Audio capture and buffering
-│   ├── dft/radix2fft.h/.cpp   # Radix-2 FFT implementation
-│   └── main.cpp               # Application entry point
-│
-├── obj/
-│   ├── meshes/                # 3D assets (Earth, sphere, etc.)
-│   └── image/HDR_blue_nebulae-1.hdr ==> this is too big have to be download from https://www.spacespheremaps.com/wp-content/uploads/HDR_blue_nebulae-1.hdr
-│
-└── qrc/
-    └── resources.qrc          # Embedded resources
-```
-
----
-
 ## 🧑‍💻 Based on the work of
 
 This project is **inspired and extended from**  
-👉 [**Timur Kristóf**](https://github.com/timur) — *“Qt Audio Visualization / Waterfall FFT”*.
+👉 [**Timur Kristóf**]([https://github.com/timur](https://github.com/Venemo/frequency-analyzer)).
 
 The FFT engine and rendering core (`WaterfallItem`) are derived from his elegant open-source implementation,  
 adapted for:
