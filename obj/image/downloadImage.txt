@@ -1,0 +1,1 @@
+download https://www.spacespheremaps.com/wp-content/uploads/HDR_blue_nebulae-1.hdr and place it to obj\image
