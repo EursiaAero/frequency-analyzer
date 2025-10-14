@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/flou_ring.png</file>
+        <file>images/rectangle.png</file>
+        <file>images/galaxy.jpg</file>
+        <file>images/dot.png</file>
+        <file>images/shape.png</file>
+        <file>main.qml</file>
+        <file>obj/meshes/node3.mesh</file>
+        <file>obj/image/citrus_orchard_road_puresky_4k.hdr</file>
+        <file>obj/image/HDR_blue_nebulae-1.hdr</file>
+        <file>shaders/water.frag</file>
+        <file>shaders/water.vert</file>
+        <file>obj/textures/Water3.jpg</file>
+        <file>obj/textures/Water_normal3.png</file>
+        <file>images/star.png</file>
+        <file>images/sun.png</file>
+        <file>qml/Earth.qml</file>
+        <file>qml/WaterSphere.qml</file>
+        <file>obj/meshes/sphere.mesh</file>
+    </qresource>
+</RCC>
